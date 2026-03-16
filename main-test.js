@@ -140,10 +140,10 @@ document.querySelector(".container").style.display = "none"
 document.getElementById("matrix").style.display = "none"
 bennettScreen.style.display = "flex"
 
-// after ~4 seconds of flashing, reveal Real Evidence button
+// after ~5 seconds of flashing, reveal Real Evidence button
 setTimeout(()=>{
 realEvidenceBtn.style.display = "inline-block"
-},4000)
+},5000)
 },7000)
 })
 
